@@ -1,0 +1,14 @@
+<template name="feed">
+  <div class="feed">
+    {{#each items}}
+      <div class="item">
+        <h1 class="rating">{{rating}}</h1>
+        <h1>{{title}}</h1>
+        <h2>{{author}}</h2>
+        {{#each ratings}}
+          <a class="rating-{{rating}}" href="#!">{{rating}}</a>
+        {{/each}}
+      </div>
+    {{/each}}
+  </div>
+</template>
