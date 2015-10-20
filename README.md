@@ -14,13 +14,13 @@ meteor
 ``` bash
 cd ~/projects
 meteor create news
-cd news
+cd news 
 rm *
 meteor add coffeescript less
 mkdir client server packages
 cd packages
-meteor create --package feeds
-meteor add feeds
+meteor create --package feeds # create an empty package
+meteor add feeds # add this package to the build
 ```
 
 ## Sublime dark sidebar
