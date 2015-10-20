@@ -75,3 +75,6 @@ https://lesscss.org has the full language spec for the less css preprocessor
 https://docs.meteor.com is the definitive guide for all public Meteor apis
 
 http://linuxandfriends.com/a-git-primer-for-new-users/ a reasonable git primer
+
+https://www.quora.com/Zhenya-Savchenko/answers - I wrote some reasonable answers about meteor and stuff, when you get to the stage where you want to make your thing look good on mobile, check out this list of things to do:
+https://www.quora.com/How-do-I-create-a-mobile-first-website-with-Meteor-js
