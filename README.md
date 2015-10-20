@@ -48,7 +48,12 @@ https://atmospherejs.com is the source for all meteor packages
 
 https://npmjs.com is the node package manager
 
-_meteor packages_ != _npm packages_ but meteor packages can depend on (contain) npm packages (also known as modules sometimes)
+_meteor packages_ != _npm packages_ but meteor packages can depend on (contain) npm packages (also known as modules sometimes) Many npm modules have already been wrapped in meteor packages by the community - always check atmosphere if your favorite npm package is already "meteorized". If not, create your own package and say in `package.js`
+```js
+Npm.depends({
+  'npm-package': 'specific.version'
+});
+```
 
 http://coffeescript.org has the full language spec for coffee and a "try it out" page which can be used to convert any coffee to js
 
