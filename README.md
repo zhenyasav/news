@@ -25,7 +25,7 @@ meteor add feeds # add this package to the build
 
 ## Sublime dark sidebar
 https://gist.github.com/umpirsky/5842174
-In sublime's menu click the first menu item `Sublime Text > Preferences > Browse Packages` and make a folder in that location called `User` and drop the contents of that file in the link above named `Default.sublime-theme`. This should immediately take effect.
+In sublime's menu click the first menu item `Sublime Text > Preferences > Browse Packages` and make a folder in that location called `User` and drop the contents of that file in the link above named `Default.sublime-theme`. A reasonable way to do this is find the "raw" button in the top right of the code window on that page and hit Cmd+S to save it. This should immediately take effect.
 
 ## Ignoring the .meteor folder
 When you add a folder to the project in sublime via menu `Project > Add folder to project` you will notice a `.meteor` folder. This is a hidden folder which meteor uses to know that this is a meteor app and where the temporary build will go when you run the app. You can safely ignore it from the sublime folder list by opening your `User Preferences` (press Cmd+, (command+comma)) and adding the following key to the file somewhere between the root `{` and `}` (anywhere):
