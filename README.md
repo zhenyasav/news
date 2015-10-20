@@ -46,10 +46,10 @@ When you add a folder to the project in sublime via menu `Project > Add folder t
 - `Cmd+P` - open the "find anything" UI
 - `Cmd+shift+P` - open the "sublime commands" list
 - Select some text and say `Cmd+D` (repeatedly if you want) to select the next instance of the same word and place an extra cursor at the end of it. Start typing or backspacing and you will be editing with multiple cursors at once! Woah.
-- Cmd+click different locations in the code to place more cursors at those locations.
-- Cmd+K,B (hold cmd, press K then B) to show/hide the sidebar
-- Cmd+F is find in this file
-- Cmd+shift+F is find in files. An example string for the "Where" field might be: `~/exp/news, *.coffee` which means search all coffee files in `~/exp/news`.
+- `Cmd+click` different locations in the code to place more cursors at those locations.
+- `Cmd+K,B` (hold cmd, press K then B) to show/hide the sidebar
+- `Cmd+F` is find in this file
+- `Cmd+shift+F` is find in files. An example string for the "Where" field might be: `~/exp/news, *.coffee` which means search all coffee files in `~/exp/news`.
 
 Sublime has many plugins (packages) of it's own, install Sublime Package Control https://packagecontrol.io/ for your version of sublime, and new commands will appear in the Cmd+shift+P window such as "Install Package" where you can find syntax highlighters for different languages, code prettifiers ... etc. (Note that these are sublime packages != meteor pacakges != npm packages ;))
 
